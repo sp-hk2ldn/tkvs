@@ -7,73 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD106373293550D0009C5878 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD106372293550D0009C5878 /* Transaction.swift */; };
-		BD2A2EED29365939005F0387 /* MockTKVStoreUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A2EEC29365939005F0387 /* MockTKVStoreUseCase.swift */; };
-		BD2A2EEF29365D77005F0387 /* TKVStoreUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A2EEE29365D77005F0387 /* TKVStoreUseCaseTests.swift */; };
-		BD2A2EF229366143005F0387 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A2EF129366143005F0387 /* TestData.swift */; };
-		BD422E4729311FB800A1BB82 /* tkvsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD422E4629311FB800A1BB82 /* tkvsTests.swift */; };
-		BD422E5129311FB800A1BB82 /* tkvsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD422E5029311FB800A1BB82 /* tkvsUITests.swift */; };
-		BD422E5329311FB800A1BB82 /* tkvsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD422E5229311FB800A1BB82 /* tkvsUITestsLaunchTests.swift */; };
-		BD422EA62934C2E600A1BB82 /* TKVStoreUseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD422E9D2934C2E600A1BB82 /* TKVStoreUseCaseType.swift */; };
-		BD422EA72934C2E600A1BB82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD422E9F2934C2E600A1BB82 /* Preview Assets.xcassets */; };
-		BD422EA82934C2E600A1BB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD422EA02934C2E600A1BB82 /* Assets.xcassets */; };
-		BD422EA92934C2E600A1BB82 /* tkvsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD422EA12934C2E600A1BB82 /* tkvsApp.swift */; };
-		BD422EAA2934C2E600A1BB82 /* TKVStoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD422EA32934C2E600A1BB82 /* TKVStoreViewModel.swift */; };
-		BD422EAB2934C2E600A1BB82 /* TKVStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD422EA52934C2E600A1BB82 /* TKVStoreView.swift */; };
+		BD422E6C293120F000A1BB82 /* tkvsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD422E6B293120F000A1BB82 /* tkvsApp.swift */; };
+		BD422E6E293120F000A1BB82 /* TKVStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD422E6D293120F000A1BB82 /* TKVStoreView.swift */; };
+		BD422E70293120F200A1BB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD422E6F293120F200A1BB82 /* Assets.xcassets */; };
+		BD422E73293120F200A1BB82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD422E72293120F200A1BB82 /* Preview Assets.xcassets */; };
+		BD422E7D293120F200A1BB82 /* tkvsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD422E7C293120F200A1BB82 /* tkvsTests.swift */; };
+		BD422E87293120F200A1BB82 /* tkvsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD422E86293120F200A1BB82 /* tkvsUITests.swift */; };
+		BD422E89293120F200A1BB82 /* tkvsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD422E88293120F200A1BB82 /* tkvsUITestsLaunchTests.swift */; };
+		BD422E98293123E000A1BB82 /* TKVStoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD422E97293123E000A1BB82 /* TKVStoreViewModel.swift */; };
+		BD422E9B293125A900A1BB82 /* TKVStoreServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD422E9A293125A900A1BB82 /* TKVStoreServiceType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BD422E4329311FB800A1BB82 /* PBXContainerItemProxy */ = {
+		BD422E79293120F200A1BB82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BD422E2A29311FB500A1BB82 /* Project object */;
+			containerPortal = BD422E60293120F000A1BB82 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BD422E3129311FB500A1BB82;
+			remoteGlobalIDString = BD422E67293120F000A1BB82;
 			remoteInfo = tkvs;
 		};
-		BD422E4D29311FB800A1BB82 /* PBXContainerItemProxy */ = {
+		BD422E83293120F200A1BB82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BD422E2A29311FB500A1BB82 /* Project object */;
+			containerPortal = BD422E60293120F000A1BB82 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BD422E3129311FB500A1BB82;
+			remoteGlobalIDString = BD422E67293120F000A1BB82;
 			remoteInfo = tkvs;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BD106372293550D0009C5878 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		BD2A2EEC29365939005F0387 /* MockTKVStoreUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTKVStoreUseCase.swift; sourceTree = "<group>"; };
-		BD2A2EEE29365D77005F0387 /* TKVStoreUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKVStoreUseCaseTests.swift; sourceTree = "<group>"; };
-		BD2A2EF129366143005F0387 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
-		BD422E3229311FB500A1BB82 /* tkvs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tkvs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD422E4229311FB800A1BB82 /* tkvsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tkvsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD422E4629311FB800A1BB82 /* tkvsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tkvsTests.swift; sourceTree = "<group>"; };
-		BD422E4C29311FB800A1BB82 /* tkvsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tkvsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD422E5029311FB800A1BB82 /* tkvsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tkvsUITests.swift; sourceTree = "<group>"; };
-		BD422E5229311FB800A1BB82 /* tkvsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tkvsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BD422E9D2934C2E600A1BB82 /* TKVStoreUseCaseType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKVStoreUseCaseType.swift; sourceTree = "<group>"; };
-		BD422E9F2934C2E600A1BB82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BD422EA02934C2E600A1BB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = tkvs/Assets.xcassets; sourceTree = "<group>"; };
-		BD422EA12934C2E600A1BB82 /* tkvsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tkvsApp.swift; path = tkvs/tkvsApp.swift; sourceTree = "<group>"; };
-		BD422EA32934C2E600A1BB82 /* TKVStoreViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKVStoreViewModel.swift; sourceTree = "<group>"; };
-		BD422EA52934C2E600A1BB82 /* TKVStoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TKVStoreView.swift; sourceTree = "<group>"; };
+		BD422E68293120F000A1BB82 /* tkvs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tkvs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD422E6B293120F000A1BB82 /* tkvsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tkvsApp.swift; sourceTree = "<group>"; };
+		BD422E6D293120F000A1BB82 /* TKVStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKVStoreView.swift; sourceTree = "<group>"; };
+		BD422E6F293120F200A1BB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD422E72293120F200A1BB82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD422E78293120F200A1BB82 /* tkvsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tkvsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD422E7C293120F200A1BB82 /* tkvsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tkvsTests.swift; sourceTree = "<group>"; };
+		BD422E82293120F200A1BB82 /* tkvsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tkvsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD422E86293120F200A1BB82 /* tkvsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tkvsUITests.swift; sourceTree = "<group>"; };
+		BD422E88293120F200A1BB82 /* tkvsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tkvsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD422E97293123E000A1BB82 /* TKVStoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKVStoreViewModel.swift; sourceTree = "<group>"; };
+		BD422E9A293125A900A1BB82 /* TKVStoreServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKVStoreServiceType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BD422E2F29311FB500A1BB82 /* Frameworks */ = {
+		BD422E65293120F000A1BB82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD422E3F29311FB800A1BB82 /* Frameworks */ = {
+		BD422E75293120F200A1BB82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD422E4929311FB800A1BB82 /* Frameworks */ = {
+		BD422E7F293120F200A1BB82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,130 +75,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BD106371293550C5009C5878 /* entity */ = {
+		BD422E5F293120F000A1BB82 = {
 			isa = PBXGroup;
 			children = (
-				BD106372293550D0009C5878 /* Transaction.swift */,
-			);
-			path = entity;
-			sourceTree = "<group>";
-		};
-		BD2A2EEB293658C6005F0387 /* usecases */ = {
-			isa = PBXGroup;
-			children = (
-				BD2A2EEC29365939005F0387 /* MockTKVStoreUseCase.swift */,
-				BD2A2EEE29365D77005F0387 /* TKVStoreUseCaseTests.swift */,
-			);
-			path = usecases;
-			sourceTree = "<group>";
-		};
-		BD2A2EF029366136005F0387 /* testdata */ = {
-			isa = PBXGroup;
-			children = (
-				BD2A2EF129366143005F0387 /* TestData.swift */,
-			);
-			path = testdata;
-			sourceTree = "<group>";
-		};
-		BD422E2929311FB500A1BB82 = {
-			isa = PBXGroup;
-			children = (
-				BD422E3429311FB500A1BB82 /* tkvs */,
-				BD422E4529311FB800A1BB82 /* tkvsTests */,
-				BD422E4F29311FB800A1BB82 /* tkvsUITests */,
-				BD422E3329311FB500A1BB82 /* Products */,
+				BD422E6A293120F000A1BB82 /* tkvs */,
+				BD422E7B293120F200A1BB82 /* tkvsTests */,
+				BD422E85293120F200A1BB82 /* tkvsUITests */,
+				BD422E69293120F000A1BB82 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BD422E3329311FB500A1BB82 /* Products */ = {
+		BD422E69293120F000A1BB82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD422E3229311FB500A1BB82 /* tkvs.app */,
-				BD422E4229311FB800A1BB82 /* tkvsTests.xctest */,
-				BD422E4C29311FB800A1BB82 /* tkvsUITests.xctest */,
+				BD422E68293120F000A1BB82 /* tkvs.app */,
+				BD422E78293120F200A1BB82 /* tkvsTests.xctest */,
+				BD422E82293120F200A1BB82 /* tkvsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BD422E3429311FB500A1BB82 /* tkvs */ = {
+		BD422E6A293120F000A1BB82 /* tkvs */ = {
 			isa = PBXGroup;
 			children = (
-				BD106371293550C5009C5878 /* entity */,
-				BD422EA02934C2E600A1BB82 /* Assets.xcassets */,
-				BD422E9E2934C2E600A1BB82 /* Preview Content */,
-				BD422EA12934C2E600A1BB82 /* tkvsApp.swift */,
-				BD422E9C2934C2E600A1BB82 /* usecases */,
-				BD422EA22934C2E600A1BB82 /* viewmodels */,
-				BD422EA42934C2E600A1BB82 /* views */,
+				BD422E992931258600A1BB82 /* usecases */,
+				BD422E96293123D500A1BB82 /* viewmodels */,
+				BD422E95293123BB00A1BB82 /* views */,
+				BD422E6B293120F000A1BB82 /* tkvsApp.swift */,
+				BD422E6F293120F200A1BB82 /* Assets.xcassets */,
+				BD422E71293120F200A1BB82 /* Preview Content */,
 			);
 			path = tkvs;
 			sourceTree = "<group>";
 		};
-		BD422E4529311FB800A1BB82 /* tkvsTests */ = {
+		BD422E71293120F200A1BB82 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				BD2A2EF029366136005F0387 /* testdata */,
-				BD2A2EEB293658C6005F0387 /* usecases */,
-				BD422E4629311FB800A1BB82 /* tkvsTests.swift */,
+				BD422E72293120F200A1BB82 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD422E7B293120F200A1BB82 /* tkvsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD422E7C293120F200A1BB82 /* tkvsTests.swift */,
 			);
 			path = tkvsTests;
 			sourceTree = "<group>";
 		};
-		BD422E4F29311FB800A1BB82 /* tkvsUITests */ = {
+		BD422E85293120F200A1BB82 /* tkvsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BD422E5029311FB800A1BB82 /* tkvsUITests.swift */,
-				BD422E5229311FB800A1BB82 /* tkvsUITestsLaunchTests.swift */,
+				BD422E86293120F200A1BB82 /* tkvsUITests.swift */,
+				BD422E88293120F200A1BB82 /* tkvsUITestsLaunchTests.swift */,
 			);
 			path = tkvsUITests;
 			sourceTree = "<group>";
 		};
-		BD422E9C2934C2E600A1BB82 /* usecases */ = {
+		BD422E95293123BB00A1BB82 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				BD422E9D2934C2E600A1BB82 /* TKVStoreUseCaseType.swift */,
+				BD422E6D293120F000A1BB82 /* TKVStoreView.swift */,
 			);
-			name = usecases;
-			path = tkvs/usecases;
+			path = views;
 			sourceTree = "<group>";
 		};
-		BD422E9E2934C2E600A1BB82 /* Preview Content */ = {
+		BD422E96293123D500A1BB82 /* viewmodels */ = {
 			isa = PBXGroup;
 			children = (
-				BD422E9F2934C2E600A1BB82 /* Preview Assets.xcassets */,
+				BD422E97293123E000A1BB82 /* TKVStoreViewModel.swift */,
 			);
-			name = "Preview Content";
-			path = "tkvs/Preview Content";
+			path = viewmodels;
 			sourceTree = "<group>";
 		};
-		BD422EA22934C2E600A1BB82 /* viewmodels */ = {
+		BD422E992931258600A1BB82 /* usecases */ = {
 			isa = PBXGroup;
 			children = (
-				BD422EA32934C2E600A1BB82 /* TKVStoreViewModel.swift */,
+				BD422E9A293125A900A1BB82 /* TKVStoreServiceType.swift */,
 			);
-			name = viewmodels;
-			path = tkvs/viewmodels;
-			sourceTree = "<group>";
-		};
-		BD422EA42934C2E600A1BB82 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				BD422EA52934C2E600A1BB82 /* TKVStoreView.swift */,
-			);
-			name = views;
-			path = tkvs/views;
+			path = usecases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD422E3129311FB500A1BB82 /* tkvs */ = {
+		BD422E67293120F000A1BB82 /* tkvs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD422E5629311FB800A1BB82 /* Build configuration list for PBXNativeTarget "tkvs" */;
+			buildConfigurationList = BD422E8C293120F200A1BB82 /* Build configuration list for PBXNativeTarget "tkvs" */;
 			buildPhases = (
-				BD422E2E29311FB500A1BB82 /* Sources */,
-				BD422E2F29311FB500A1BB82 /* Frameworks */,
-				BD422E3029311FB500A1BB82 /* Resources */,
+				BD422E64293120F000A1BB82 /* Sources */,
+				BD422E65293120F000A1BB82 /* Frameworks */,
+				BD422E66293120F000A1BB82 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -214,69 +174,69 @@
 			);
 			name = tkvs;
 			productName = tkvs;
-			productReference = BD422E3229311FB500A1BB82 /* tkvs.app */;
+			productReference = BD422E68293120F000A1BB82 /* tkvs.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BD422E4129311FB800A1BB82 /* tkvsTests */ = {
+		BD422E77293120F200A1BB82 /* tkvsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD422E5929311FB800A1BB82 /* Build configuration list for PBXNativeTarget "tkvsTests" */;
+			buildConfigurationList = BD422E8F293120F200A1BB82 /* Build configuration list for PBXNativeTarget "tkvsTests" */;
 			buildPhases = (
-				BD422E3E29311FB800A1BB82 /* Sources */,
-				BD422E3F29311FB800A1BB82 /* Frameworks */,
-				BD422E4029311FB800A1BB82 /* Resources */,
+				BD422E74293120F200A1BB82 /* Sources */,
+				BD422E75293120F200A1BB82 /* Frameworks */,
+				BD422E76293120F200A1BB82 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BD422E4429311FB800A1BB82 /* PBXTargetDependency */,
+				BD422E7A293120F200A1BB82 /* PBXTargetDependency */,
 			);
 			name = tkvsTests;
 			productName = tkvsTests;
-			productReference = BD422E4229311FB800A1BB82 /* tkvsTests.xctest */;
+			productReference = BD422E78293120F200A1BB82 /* tkvsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BD422E4B29311FB800A1BB82 /* tkvsUITests */ = {
+		BD422E81293120F200A1BB82 /* tkvsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD422E5C29311FB800A1BB82 /* Build configuration list for PBXNativeTarget "tkvsUITests" */;
+			buildConfigurationList = BD422E92293120F200A1BB82 /* Build configuration list for PBXNativeTarget "tkvsUITests" */;
 			buildPhases = (
-				BD422E4829311FB800A1BB82 /* Sources */,
-				BD422E4929311FB800A1BB82 /* Frameworks */,
-				BD422E4A29311FB800A1BB82 /* Resources */,
+				BD422E7E293120F200A1BB82 /* Sources */,
+				BD422E7F293120F200A1BB82 /* Frameworks */,
+				BD422E80293120F200A1BB82 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BD422E4E29311FB800A1BB82 /* PBXTargetDependency */,
+				BD422E84293120F200A1BB82 /* PBXTargetDependency */,
 			);
 			name = tkvsUITests;
 			productName = tkvsUITests;
-			productReference = BD422E4C29311FB800A1BB82 /* tkvsUITests.xctest */;
+			productReference = BD422E82293120F200A1BB82 /* tkvsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BD422E2A29311FB500A1BB82 /* Project object */ = {
+		BD422E60293120F000A1BB82 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					BD422E3129311FB500A1BB82 = {
+					BD422E67293120F000A1BB82 = {
 						CreatedOnToolsVersion = 14.1;
 					};
-					BD422E4129311FB800A1BB82 = {
+					BD422E77293120F200A1BB82 = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = BD422E3129311FB500A1BB82;
+						TestTargetID = BD422E67293120F000A1BB82;
 					};
-					BD422E4B29311FB800A1BB82 = {
+					BD422E81293120F200A1BB82 = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = BD422E3129311FB500A1BB82;
+						TestTargetID = BD422E67293120F000A1BB82;
 					};
 				};
 			};
-			buildConfigurationList = BD422E2D29311FB500A1BB82 /* Build configuration list for PBXProject "tkvs" */;
+			buildConfigurationList = BD422E63293120F000A1BB82 /* Build configuration list for PBXProject "tkvs" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -284,36 +244,36 @@
 				en,
 				Base,
 			);
-			mainGroup = BD422E2929311FB500A1BB82;
-			productRefGroup = BD422E3329311FB500A1BB82 /* Products */;
+			mainGroup = BD422E5F293120F000A1BB82;
+			productRefGroup = BD422E69293120F000A1BB82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD422E3129311FB500A1BB82 /* tkvs */,
-				BD422E4129311FB800A1BB82 /* tkvsTests */,
-				BD422E4B29311FB800A1BB82 /* tkvsUITests */,
+				BD422E67293120F000A1BB82 /* tkvs */,
+				BD422E77293120F200A1BB82 /* tkvsTests */,
+				BD422E81293120F200A1BB82 /* tkvsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BD422E3029311FB500A1BB82 /* Resources */ = {
+		BD422E66293120F000A1BB82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD422EA72934C2E600A1BB82 /* Preview Assets.xcassets in Resources */,
-				BD422EA82934C2E600A1BB82 /* Assets.xcassets in Resources */,
+				BD422E73293120F200A1BB82 /* Preview Assets.xcassets in Resources */,
+				BD422E70293120F200A1BB82 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD422E4029311FB800A1BB82 /* Resources */ = {
+		BD422E76293120F200A1BB82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD422E4A29311FB800A1BB82 /* Resources */ = {
+		BD422E80293120F200A1BB82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,55 +283,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BD422E2E29311FB500A1BB82 /* Sources */ = {
+		BD422E64293120F000A1BB82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD422EAB2934C2E600A1BB82 /* TKVStoreView.swift in Sources */,
-				BD422EA92934C2E600A1BB82 /* tkvsApp.swift in Sources */,
-				BD422EA62934C2E600A1BB82 /* TKVStoreUseCaseType.swift in Sources */,
-				BD422EAA2934C2E600A1BB82 /* TKVStoreViewModel.swift in Sources */,
-				BD106373293550D0009C5878 /* Transaction.swift in Sources */,
+				BD422E98293123E000A1BB82 /* TKVStoreViewModel.swift in Sources */,
+				BD422E9B293125A900A1BB82 /* TKVStoreServiceType.swift in Sources */,
+				BD422E6E293120F000A1BB82 /* TKVStoreView.swift in Sources */,
+				BD422E6C293120F000A1BB82 /* tkvsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD422E3E29311FB800A1BB82 /* Sources */ = {
+		BD422E74293120F200A1BB82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD422E4729311FB800A1BB82 /* tkvsTests.swift in Sources */,
-				BD2A2EEF29365D77005F0387 /* TKVStoreUseCaseTests.swift in Sources */,
-				BD2A2EED29365939005F0387 /* MockTKVStoreUseCase.swift in Sources */,
-				BD2A2EF229366143005F0387 /* TestData.swift in Sources */,
+				BD422E7D293120F200A1BB82 /* tkvsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD422E4829311FB800A1BB82 /* Sources */ = {
+		BD422E7E293120F200A1BB82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD422E5329311FB800A1BB82 /* tkvsUITestsLaunchTests.swift in Sources */,
-				BD422E5129311FB800A1BB82 /* tkvsUITests.swift in Sources */,
+				BD422E89293120F200A1BB82 /* tkvsUITestsLaunchTests.swift in Sources */,
+				BD422E87293120F200A1BB82 /* tkvsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BD422E4429311FB800A1BB82 /* PBXTargetDependency */ = {
+		BD422E7A293120F200A1BB82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BD422E3129311FB500A1BB82 /* tkvs */;
-			targetProxy = BD422E4329311FB800A1BB82 /* PBXContainerItemProxy */;
+			target = BD422E67293120F000A1BB82 /* tkvs */;
+			targetProxy = BD422E79293120F200A1BB82 /* PBXContainerItemProxy */;
 		};
-		BD422E4E29311FB800A1BB82 /* PBXTargetDependency */ = {
+		BD422E84293120F200A1BB82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BD422E3129311FB500A1BB82 /* tkvs */;
-			targetProxy = BD422E4D29311FB800A1BB82 /* PBXContainerItemProxy */;
+			target = BD422E67293120F000A1BB82 /* tkvs */;
+			targetProxy = BD422E83293120F200A1BB82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		BD422E5429311FB800A1BB82 /* Debug */ = {
+		BD422E8A293120F200A1BB82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -431,7 +387,7 @@
 			};
 			name = Debug;
 		};
-		BD422E5529311FB800A1BB82 /* Release */ = {
+		BD422E8B293120F200A1BB82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -485,14 +441,14 @@
 			};
 			name = Release;
 		};
-		BD422E5729311FB800A1BB82 /* Debug */ = {
+		BD422E8D293120F200A1BB82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"tkvs/tkvs/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"tkvs/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -513,14 +469,14 @@
 			};
 			name = Debug;
 		};
-		BD422E5829311FB800A1BB82 /* Release */ = {
+		BD422E8E293120F200A1BB82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"tkvs/tkvs/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"tkvs/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -541,7 +497,7 @@
 			};
 			name = Release;
 		};
-		BD422E5A29311FB800A1BB82 /* Debug */ = {
+		BD422E90293120F200A1BB82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -560,7 +516,7 @@
 			};
 			name = Debug;
 		};
-		BD422E5B29311FB800A1BB82 /* Release */ = {
+		BD422E91293120F200A1BB82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -579,7 +535,7 @@
 			};
 			name = Release;
 		};
-		BD422E5D29311FB800A1BB82 /* Debug */ = {
+		BD422E93293120F200A1BB82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -596,7 +552,7 @@
 			};
 			name = Debug;
 		};
-		BD422E5E29311FB800A1BB82 /* Release */ = {
+		BD422E94293120F200A1BB82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -616,43 +572,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BD422E2D29311FB500A1BB82 /* Build configuration list for PBXProject "tkvs" */ = {
+		BD422E63293120F000A1BB82 /* Build configuration list for PBXProject "tkvs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD422E5429311FB800A1BB82 /* Debug */,
-				BD422E5529311FB800A1BB82 /* Release */,
+				BD422E8A293120F200A1BB82 /* Debug */,
+				BD422E8B293120F200A1BB82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD422E5629311FB800A1BB82 /* Build configuration list for PBXNativeTarget "tkvs" */ = {
+		BD422E8C293120F200A1BB82 /* Build configuration list for PBXNativeTarget "tkvs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD422E5729311FB800A1BB82 /* Debug */,
-				BD422E5829311FB800A1BB82 /* Release */,
+				BD422E8D293120F200A1BB82 /* Debug */,
+				BD422E8E293120F200A1BB82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD422E5929311FB800A1BB82 /* Build configuration list for PBXNativeTarget "tkvsTests" */ = {
+		BD422E8F293120F200A1BB82 /* Build configuration list for PBXNativeTarget "tkvsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD422E5A29311FB800A1BB82 /* Debug */,
-				BD422E5B29311FB800A1BB82 /* Release */,
+				BD422E90293120F200A1BB82 /* Debug */,
+				BD422E91293120F200A1BB82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD422E5C29311FB800A1BB82 /* Build configuration list for PBXNativeTarget "tkvsUITests" */ = {
+		BD422E92293120F200A1BB82 /* Build configuration list for PBXNativeTarget "tkvsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD422E5D29311FB800A1BB82 /* Debug */,
-				BD422E5E29311FB800A1BB82 /* Release */,
+				BD422E93293120F200A1BB82 /* Debug */,
+				BD422E94293120F200A1BB82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BD422E2A29311FB500A1BB82 /* Project object */;
+	rootObject = BD422E60293120F000A1BB82 /* Project object */;
 }

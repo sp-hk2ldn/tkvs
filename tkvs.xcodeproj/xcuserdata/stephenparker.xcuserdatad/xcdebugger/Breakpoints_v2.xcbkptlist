@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1D2C43E9-C175-4130-9A3E-9DE99BF6052D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A87C8EFE-4887-4921-BC90-471210EFD490"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tkvsTests/tkvsTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "testTextInput()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A87C8EFE-4887-4921-BC90-471210EFD490 - b50d0bff7bbe9e97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tkvsTests.TKVStoreViewModelTests.testTextInput() -&gt; ()"
+                  moduleName = "tkvsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stephenparker/workspace/tkvs/tkvsTests/tkvsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "2804">
+               </Location>
+               <Location
+                  uuid = "A87C8EFE-4887-4921-BC90-471210EFD490 - b50d0bff7bbe9ef0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tkvsTests.TKVStoreViewModelTests.testTextInput() -&gt; ()"
+                  moduleName = "tkvsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stephenparker/workspace/tkvs/tkvsTests/tkvsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "2828">
+               </Location>
+               <Location
+                  uuid = "A87C8EFE-4887-4921-BC90-471210EFD490 - b50d0bff7bbe9ef0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tkvsTests.TKVStoreViewModelTests.testTextInput() -&gt; ()"
+                  moduleName = "tkvsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stephenparker/workspace/tkvs/tkvsTests/tkvsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "2560">
+               </Location>
+               <Location
+                  uuid = "A87C8EFE-4887-4921-BC90-471210EFD490 - b50d0bff7bbe9de9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tkvsTests.TKVStoreViewModelTests.testTextInput() -&gt; ()"
+                  moduleName = "tkvsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stephenparker/workspace/tkvs/tkvsTests/tkvsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2167">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
